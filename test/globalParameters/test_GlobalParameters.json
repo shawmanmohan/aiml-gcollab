@@ -1,0 +1,6 @@
+{
+	"is_omni_running": {
+		"type": "bool",
+		"value": true
+	}
+}
