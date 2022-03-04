@@ -4,7 +4,7 @@
 		"variables": {
 			"is_omni_running": {
 				"type": "Boolean",
-				"defaultValue": true
+				"defaultValue": false
 			}
 		},
 		"annotations": []
