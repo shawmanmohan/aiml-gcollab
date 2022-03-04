@@ -1,0 +1,12 @@
+{
+	"name": "test",
+	"properties": {
+		"globalParameters": {
+			"is_omni_running": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	},
+	"location": "southindia"
+}
