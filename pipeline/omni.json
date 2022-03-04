@@ -1,36 +1,12 @@
 {
-	"name": "pipeline1",
+	"name": "omni",
 	"properties": {
-		"activities": [
-			{
-				"name": "Get Metadata1",
-				"type": "GetMetadata",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "7.00:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"fieldList": []
-				}
-			},
-			{
-				"name": "Set variable1",
-				"type": "SetVariable",
-				"dependsOn": [],
-				"userProperties": []
-			},
-			{
-				"name": "Append variable1",
-				"type": "AppendVariable",
-				"dependsOn": [],
-				"userProperties": []
+		"variables": {
+			"is_omni_running": {
+				"type": "Boolean",
+				"defaultValue": true
 			}
-		],
+		},
 		"annotations": []
 	}
 }
