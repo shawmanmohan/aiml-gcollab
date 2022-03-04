@@ -1,6 +1,18 @@
 {
 	"name": "omni",
 	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "is_omni_running",
+					"value": true
+				}
+			}
+		],
 		"variables": {
 			"is_omni_running": {
 				"type": "Boolean",
